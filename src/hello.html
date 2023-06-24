@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        section {
+            width: 100%;
+            background: cyan;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        section div {
+            width: 30%;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        .flexone {
+            background-color: red;
+        }
+
+        .flextwo {
+            background-color: yellow;
+        }
+
+        .flexthree {
+            background-color: blue;
+        }
+
+        @media(max-width: 768px) {
+            section {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <div class="flexone">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odio officia ex tenetur ipsa.
+            Beatae enim ipsa fugiat illo delectus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+            rem in earum enim ex. Laudantium laboriosam aut earum itaque corporis.</div>
+
+        <div class="flextwo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odio officia ex tenetur ipsa.
+            Beatae enim ipsa fugiat illo delectus? Lorem ipsum dolo</div>
+
+        <div class="flexthree">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odio officia ex tenetur
+            ipsa. Beatae enim ipsa fugiat illo delectus? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Molestias porro voluptatibus laborum, fugit dignissimos veniam? Facilis, at. Voluptates, corrupti. Aperiam.
+        </div>
+    </section>
+
+</body>
+
+</html>

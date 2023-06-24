@@ -1,0 +1,10 @@
+.main{
+    background: lightskyblue;
+    height: 60px;
+    font-size: 30px;
+    /* color: gray; */
+    /* color: rgb(228, 233, 233); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
